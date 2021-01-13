@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <title>Login And Registration</title>
+    <link rel="stylesheet" href="Style.css">
+  </head>
+  <body>
+    <div class="hero">
+  <div class="form-box">
+      <div class="button-box">
+          <div id="btn"></div>
+      </div>
+      <form id="login" class="input-group">
+        <input type="text" class="input-field" name="username" placeholder="User Id" required/>
+        <input type="password" autocomplete="off" class="input-field" name="password" placeholder="Enter Password" required/>
+        <button type="submit" class="submit-btn" onclick="check(this.form)"><b>Log In</b></button>
+      </form>
+      <script language="javascript">
+        function check(form)
+        {
+         if(form.username.value == "shantha7kumar" && form.password.value == "masha@2001")
+          {
+            window.open('index2.html')
+          }
+         else
+         {
+           alert("Invalid Password or Username")
+          }
+        }
+        </script>
+  </div>
+    </div>
+  </body>
+</html>
