@@ -414,7 +414,7 @@ footer.copyright{
         font-size:1em;
     }
     .textBx{
-        position:relative;
+        position:absolute;
         top:190px;
     }
     .btn{
