@@ -335,7 +335,7 @@ footer.copyright{
 }
 
 /* Making Responsive Layout */
-@media (max-width:991px)
+@media (max-width:600px)
 {
     header,
     header.sticky{
@@ -414,8 +414,8 @@ footer.copyright{
         font-size:1em;
     }
     .textBx{
-        position:absolute;
-        top:190px;
+        position:relative;
+        top:170px;
     }
     .btn{
         margin-top:10px;
